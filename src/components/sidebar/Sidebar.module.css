@@ -1,0 +1,51 @@
+.sidebarSection {
+    @apply w-full h-full bg-purple-200
+}
+
+.sidebarMessageWrapper {
+    @apply w-full px-3 py-1
+}
+
+.sidebarMsgInfoContainer {
+    @apply h-[calc(100vh-130px)] overflow-x-hidden overflow-y-auto
+}
+
+.sidebarContentWrapper {
+    @apply flex flex-col justify-between
+}
+
+.sidebarList {
+    @apply flex flex-col gap-2
+}
+
+.number {
+    @apply bg-slate-900 text-white rounded-full w-8 aspect-square grid place-content-center
+}
+
+.title {
+    @apply text-sm font-semibold
+}
+
+.sidebarListItem {
+    @apply py-2 px-3 bg-purple-500 hover:bg-purple-700 text-white rounded-full flex items-center gap-2 cursor-pointer
+}
+
+.logoWrapper {
+    @apply flex items-center gap-2
+}
+
+.logoContent {
+    @apply w-20
+}
+
+.logoImg {
+    @apply w-8
+}
+
+.settingsIcon {
+    @apply flex items-center gap-2
+}
+
+.para {
+    @apply text-slate-500 text-sm font-semibold my-1 p-2
+}

@@ -1,0 +1,28 @@
+.configurationWrapper {
+    @apply p-4
+}
+
+.configurationContent {
+    @apply my-4
+}
+
+
+.editBtn {
+    @apply flex justify-center gap-3 text-sm items-center bg-stone-800 text-white px-3 py-2 rounded-full
+}
+
+.searchBtn {
+    @apply border-2 p-2 rounded-full border-purple-600 cursor-pointer
+}
+
+.primaryHeading {
+    @apply text-3xl font-bold text-purple-700
+}
+
+.para {
+    @apply text-lg font-bold pl-2 my-1 text-purple-700
+}
+
+.transContent {
+    @apply px-2
+}

@@ -1,0 +1,47 @@
+.transcriptWrapper {
+    @apply p-4
+}
+
+.transcriptContent {
+    @apply p-4 my-5 border-2 border-stone-500 rounded-xl
+}
+
+.transcriptHeader {
+    @apply flex justify-between items-center pr-4
+}
+
+.editBtn {
+    @apply flex justify-center gap-3 text-sm items-center bg-stone-800 text-white px-3 py-2 rounded-full
+}
+
+.searchBtn {
+    @apply border-2 p-2 rounded-full border-purple-600 cursor-pointer
+}
+
+.primaryHeading {
+    @apply text-3xl font-bold text-purple-700
+}
+
+.para {
+    @apply text-lg font-bold pl-2 my-1 text-purple-700
+}
+
+.transContent {
+    @apply px-2
+}
+
+.discardBtn {
+    @apply py-1 px-5 border-2 text-red-800 border-red-600 bg-transparent
+}
+
+.saveBtn {
+    @apply py-1 px-5 border-2 text-white bg-neutral-800 border-neutral-800
+}
+
+.btnSection {
+    @apply flex justify-between items-center
+}
+
+.btnContainer {
+    @apply flex gap-2
+}

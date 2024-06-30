@@ -1,0 +1,11 @@
+.uploadSection{
+    @apply p-5
+}
+
+.cardSection {
+    @apply grid grid-cols-3 gap-4 overflow-y-auto my-5
+}
+
+.primaryHeading {
+    @apply text-3xl font-bold text-purple-700
+}

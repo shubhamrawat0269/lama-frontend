@@ -1,0 +1,19 @@
+.headerWrapper {
+    @apply flex px-4 py-2 justify-between items-center bg-slate-100
+}
+
+.logoWrapper {
+    @apply flex items-center gap-2
+}
+
+.logoImg {
+    @apply w-12
+}
+
+.logoContent {
+    @apply w-20
+}
+
+.btnSection {
+    @apply flex items-center gap-3
+}

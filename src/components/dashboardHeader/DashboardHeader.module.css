@@ -1,0 +1,31 @@
+.headerWrapper {
+    @apply px-4 py-4 bg-slate-100
+}
+
+.headerContainer {
+    @apply flex justify-between items-center
+}
+
+.headerSecondaryContent {
+    @apply flex justify-between items-center gap-2
+}
+
+.profileContent {
+    @apply flex items-center gap-2
+}
+
+.logoWrapper {
+    @apply flex items-center gap-2
+}
+
+.logoImg {
+    @apply w-12
+}
+
+.logoContent {
+    @apply w-20
+}
+
+.btnSection {
+    @apply flex items-center gap-3
+}

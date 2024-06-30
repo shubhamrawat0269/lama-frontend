@@ -1,0 +1,8 @@
+.inputBox {
+    @apply mt-2 w-full
+}
+
+
+.searchInput {
+    @apply w-full outline-none py-2 border border-slate-600 my-2 p-3 rounded-md
+}

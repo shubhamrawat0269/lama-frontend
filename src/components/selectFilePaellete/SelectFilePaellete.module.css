@@ -1,0 +1,23 @@
+.palleteSection {
+    @apply border-4 border-dotted rounded-xl border-purple-500 p-[4rem] m-5 flex justify-center items-center
+}
+
+.palleteInfoSection {
+    @apply text-center
+}
+
+.palleteImg {
+    @apply flex justify-center items-center mb-4
+}
+
+.primaryText {
+    @apply text-slate-900 font-semibold text-xl mb-2
+}
+
+.secondaryText {
+    @apply text-slate-500 text-lg mb-2
+}
+
+.selectBtn {
+    @apply text-purple-900 font-semibold bg-transparent border-2 border-purple-800 rounded-full py-2 px-4 text-lg my-2
+}

@@ -38,13 +38,13 @@ const UploadModal = ({ show, source }) => {
     const url = `${import.meta.env.VITE_BACKEND_URL}/api/upload-file`;
     try {
       const res = await axios.post(url, fileData);
-      // console.log(res);
+      console.log(res);
 
       if (res.data.success) {
         toast.success(res.data.message);
 
         dispatch(setUploadModal({ title: "", show: false }));
-        dispatch(setFileInfo(res.data.data));
+        dispatch(setFileInfo(res?.data?.data));
         setData({
           name: "",
           description: "",

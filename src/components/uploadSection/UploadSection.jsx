@@ -13,7 +13,7 @@ const UploadSection = () => {
     <>
       <UploadWrappers />
       <UploadModal show={uploadModal} source={uploadSource} />
-      {fileData.length !== 0 ? <FileTabularList /> : <SelectFilePaellete />}
+      {fileData?.length !== 0 ? <FileTabularList /> : <SelectFilePaellete />}
     </>
   );
 };
